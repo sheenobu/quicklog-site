@@ -1,0 +1,65 @@
+baseurl = "https://sheenobu.github.io/quicklog/"
+languageCode = "en-us"
+title = "quicklog"
+canonifyurls = true
+theme = "hugo-material-docs"
+
+[params]
+  author = "sheenobu"
+  description = "A log aggregation, parsing, and searching system"
+  copyright = "Released under the MIT license"
+  provider = "GitHub"
+  repo_url = "https://github.com/sheenobu/quicklog"
+  version = "0.0.1-DEV"
+  logo = "images/logo.png"
+  permalink = "#"
+  custom_css = [
+    "quicklog.css",
+  ]
+
+[params.font]
+  text = "Roboto"
+  code = "Roboto Mono"
+
+[params.palette]
+  primary = "indigo"
+
+[social]
+  twitter = "sheenobu"
+  github  = "sheenobu"
+
+[[menu.main]]
+  name   = "Quicklog"
+  url    = ""
+  weight = 0
+
+[[menu.main]]
+  name   = "Documentation"
+  url    = "documentation/"
+  weight = 1
+
+[[menu.main]]
+  name   = "Input Components"
+  url    = "input-components/"
+  weight = 2
+
+[[menu.main]]
+  name   = "Parsers"
+  url    = "parsers/"
+  weight = 3
+
+[[menu.main]]
+  name   = "Filters"
+  url    = "filters/"
+  weight = 4
+
+[[menu.main]]
+  name   = "Output Components"
+  url    = "output-components/"
+  weight = 5
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
